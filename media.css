@@ -1,0 +1,125 @@
+@media screen and (max-width: 1602px){
+  header {
+    width: 96%;
+}
+}
+@media screen and (max-width: 1602px){
+header .trip_bx .travel_bx .cards .card {
+  min-width: 193px;
+  margin-right: 10px;
+}
+}
+@media screen and (max-width: 1028px){
+  header .trip_bx .search_bx {
+    width: 68%;
+}
+  header .trip_bx .search_bx .card {
+    margin-right: 10px;
+}
+  
+}
+@media screen and (max-width: 1144px){
+header {
+  width: 96%;
+}
+}
+@media screen and (max-width: 1200px){
+header .trip_bx .travel_bx .cards {
+  width: 99%;
+}
+}
+@media screen and (max-width: 1100px){
+header {
+  width: 97%;
+}
+}
+@media screen and (max-width: 950px){
+header {
+  width: 95%;
+  height: 95vh;
+  /* border: 1px solid#000; */
+  margin: auto;
+}
+header .trip_bx .search_bx {
+  width: 72%;
+}
+
+header .trip_bx .travel_bx .cards .card {
+  min-width: 194px;
+  /* border: 1px solid #000; */
+  margin-right: 10px;
+}
+@media screen and (max-width: 861px){
+  header .trip_bx .search_bx {
+    width: 73%;
+}
+@media screen and (max-width: 865px){
+  header .trip_bx .search_bx {
+    width: 78%;
+}
+@media screen and (max-width: 794px){
+header .trip_bx .search_bx {
+  width: 81%;
+}
+@media screen and (max-width: 769px){
+  header .trip_bx .search_bx {
+    width: 87%;
+  }
+}
+@media screen and (max-width: 716px){
+  header .trip_bx .search_bx {
+  width: 93%;
+  }
+}
+@media screen and (max-width: 676px){
+  header .trip_bx .search_bx {
+   width: 93%;
+  }
+  header .trip_bx .search_bx .card {
+    width: 139px;
+}
+}
+header .trip_bx .search_bx .card {
+  
+  margin-right: 10px;
+}
+}
+@media screen and (max-width: 650px)
+{
+  header {
+    width: 100%;
+    margin-left: revert;
+  }
+
+  
+
+  header nav ul 
+ { 
+    position: absolute;
+   width: 100px;
+   height: auto;
+   flex-direction: column;
+   background: #fff;
+   border-radius: 5px;
+    box-shadow: 0px 0px 10px grey;
+   justify-content: center;
+   top: 0%;
+   right: 30%;
+   z-index: 999;
+   padding: 10px 20px;
+   transition: 1s linear;  
+}
+
+/* javascript class */
+
+header nav .ul_active{
+  top: 0;
+}
+
+header nav ul li {
+    padding: 8px 0px;
+    text-align: center;
+}
+header nav .bi-three-dots {
+  display: unset;
+}
